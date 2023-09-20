@@ -152,13 +152,6 @@ func convToRoman(romanResult int) {
 						romanNum += value
 						romanResult -= elem
 					}
-
-					/*for index, value := range roman {
-						if value == elem {
-							romanNum += index
-							romanResult -= elem
-						}
-					}*/
 				}
 			}
 		}
